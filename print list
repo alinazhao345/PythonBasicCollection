@@ -1,0 +1,7 @@
+# 换行打印list
+#方法1 
+for i in temp_list:
+    print(i)
+
+#方法2
+print("\n".join(i for i in temp_list))
